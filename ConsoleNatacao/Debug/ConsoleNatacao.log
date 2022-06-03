@@ -1,0 +1,29 @@
+﻿Build started 31/05/2017 12:30:28.
+     1>Project "J:\Prof Bortot\Programas - Aula\Para Consultar - P2\ConsoleNatacao\ConsoleNatacao\ConsoleNatacao.vcxproj" on node 2 (build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>InitializeBuildStatus:
+         Creating "Debug\ConsoleNatacao.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>j:\prof bortot\programas - aula\para consultar - p2\consolenatacao\consolenatacao\source.cpp(497): warning C4101: 'stRaia' : unreferenced local variable
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\ConsoleNatacao.exe.embed.manifest.res" Debug\ConsoleNatacao_manifest.rc 
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"J:\Prof Bortot\Programas - Aula\Para Consultar - P2\ConsoleNatacao\Debug\ConsoleNatacao.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ConsoleNatacao.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"J:\Prof Bortot\Programas - Aula\Para Consultar - P2\ConsoleNatacao\Debug\ConsoleNatacao.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\Prof Bortot\Programas - Aula\Para Consultar - P2\ConsoleNatacao\Debug\ConsoleNatacao.lib" /MACHINE:X86 Debug\ConsoleNatacao.exe.embed.manifest.res
+         Debug\Source.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\ConsoleNatacao.exe.embed.manifest" /manifest Debug\ConsoleNatacao.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\ConsoleNatacao.exe.embed.manifest.res" Debug\ConsoleNatacao_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"J:\Prof Bortot\Programas - Aula\Para Consultar - P2\ConsoleNatacao\Debug\ConsoleNatacao.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ConsoleNatacao.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"J:\Prof Bortot\Programas - Aula\Para Consultar - P2\ConsoleNatacao\Debug\ConsoleNatacao.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\Prof Bortot\Programas - Aula\Para Consultar - P2\ConsoleNatacao\Debug\ConsoleNatacao.lib" /MACHINE:X86 Debug\ConsoleNatacao.exe.embed.manifest.res
+         Debug\Source.obj
+         ConsoleNatacao.vcxproj -> J:\Prof Bortot\Programas - Aula\Para Consultar - P2\ConsoleNatacao\Debug\ConsoleNatacao.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\ConsoleNatacao.unsuccessfulbuild".
+         Touching "Debug\ConsoleNatacao.lastbuildstate".
+     1>Done Building Project "J:\Prof Bortot\Programas - Aula\Para Consultar - P2\ConsoleNatacao\ConsoleNatacao\ConsoleNatacao.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.96
